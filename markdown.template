@@ -1,0 +1,72 @@
+-------------
+{{#data.children}}
+kind: "{{kind}}"
+{{#data}}
+subreddit_id: "{{subreddit_id}}"
+banned_by: "{{banned_by}}"
+removal_reason: "{{removal_reason}}"
+likes: "{{likes}}"
+replies: "{{replies}}"
+saved: "{{saved}}"
+id: "{{id}}"
+gilded: "{{gilded}}"
+archived: "{{archived}}"
+report_reasons: "{{report_reasons}}"
+author: "{{author}}"
+score: "{{score}}"
+approved_by: "{{approved_by}}"
+edited: "{{edited}}"
+author_flair_css_class: "{{author_flair_css_class}}"
+downs: "{{downs}}"
+subreddit: "{{subreddit}}"
+name: "{{name}}"
+stickied: "{{stickied}}"
+created: "{{created}}"
+author_flair_text: "{{author_flair_text}}"
+created_utc: "{{created_utc}}"
+distinguished: "{{distinguished}}"
+num_reports: "{{num_reports}}"
+ups: "{{ups}}"
+{{#domain}}{{! COMMENT: domain isn't defined in a comment JSON file, so if this exists, we can print the stuff for a thread. }}
+type: "thread"
+contest_mode: "{{contest_mode}}"
+domain: "{{domain}}"
+suggested_sort: "{{suggested_sort}}"
+secure_media: "{{secure_media}}"
+clicked: "{{clicked}}"
+over_18: "{{over_18}}"
+hidden: "{{hidden}}"
+thumbnail: "{{thumbnail}}"
+link_flair_css_class: "{{link_flair_css_class}}"
+is_self: "{{is_self}}"
+hide_score: "{{hide_score}}"
+spoiler: "{{spoiler}}"
+permalink: "{{permalink}}"
+locked: "{{locked}}"
+url: "{{url}}"
+title: "{{title}}"
+quarantine: "{{quarantine}}"
+num_comments: "{{num_comments}}"
+visited: "{{visited}}"
+{{/domain}}
+{{#parent_id}}{{! COMMENT: Parent id isn't defined for threads, so if this exists, we can print the stuff for a comment. }}
+type: "comment"
+parent_id: "{{parent_id}}"
+link_id: "{{link_id}}"
+controversiality: "{{controversiality}}"
+score_hidden: "{{score_hidden}}"
+media: "{{media}}"
+{{/parent_id}}
+{{/data}}
+{{/data.children}}
+-------------
+{{#data.children}}
+{{#data}}
+{{#domain}}{{! COMMENT: domain isn't defined in a comment JSON file, so if this exists, we can print the stuff for a thread. }}
+{{{selftext}}}
+{{/domain}}
+{{#parent_id}}{{! COMMENT: Parent id isn't defined for threads, so if this exists, we can print the stuff for a comment. }}
+{{{body}}}
+{{/parent_id}}
+{{/data}}
+{{/data.children}}
