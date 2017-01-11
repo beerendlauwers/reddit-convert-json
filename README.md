@@ -1,6 +1,3 @@
-# reddit-convert-json
-Converts the t1 and t3 JSON files you get from the Reddit API into a markdown file with YAML metadata.
-
 # What this does
 
 Use the `convert.sh` file or the Windows equivalent (coming soon) to convert raw JSON files from the Reddit API into YAML metadata that can be used by static site generators like [Hakyll](https://jaspervdj.be/hakyll/) and [Jekyll](https://jekyllrb.com/).
