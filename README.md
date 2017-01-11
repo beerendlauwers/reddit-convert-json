@@ -32,5 +32,16 @@ If you don't know what JSON means, it's just a text file with some data in it.
 
 * Copy the actual tool that will do the conversion in the same directory as `convert.sh`, naming it `haskell-mustache`. [Link to Ubuntu version of tool](https://github.com/beerendlauwers/reddit-convert-json/raw/master/executables/haskell-mustache)
 * Copy the JSON files into the `input` folder.
-* Execute `convert.sh` on the command line.
+* Execute `./convert.sh` on the command line.
 * The YAML files are now in the `output` folder.
+
+## Windows
+
+Coming soon!
+
+# Parameters
+
+You can also provide an absolute path to the `haskell-mustache` executable if it's elsewhere:
+
+    ./convert.sh /home/beerend/.local/bin/haskell-mustache
+    
