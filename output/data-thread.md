@@ -1,4 +1,4 @@
--------------
+---
 kind: "t3"
 subreddit_id: "t5_2rngx"
 banned_by: "null"
@@ -46,7 +46,7 @@ title: "[SMT] A tool that exports your saved reddit posts into bookmarks organiz
 quarantine: "False"
 num_comments: "23"
 visited: "False"
--------------
+---
 
 Saving things on reddit is great, and you can view saved items by subreddit with gold. But having them organized in bookmarks could be useful for a few things:
 

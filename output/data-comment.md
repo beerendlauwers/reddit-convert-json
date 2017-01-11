@@ -1,4 +1,4 @@
--------------
+---
 kind: "t1"
 subreddit_id: "t5_2rngx"
 banned_by: "null"
@@ -32,7 +32,7 @@ link_id: "t3_1l82ei"
 controversiality: "0"
 score_hidden: "False"
 media: ""
--------------
+---
 
 "
 

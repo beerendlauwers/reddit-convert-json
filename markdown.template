@@ -1,4 +1,4 @@
--------------
+---
 {{#data.children}}
 kind: "{{kind}}"
 {{#data}}
@@ -59,7 +59,7 @@ media: "{{media}}"
 {{/parent_id}}
 {{/data}}
 {{/data.children}}
--------------
+---
 {{#data.children}}
 {{#data}}
 {{#domain}}{{! COMMENT: domain isn't defined in a comment JSON file, so if this exists, we can print the stuff for a thread. }}
